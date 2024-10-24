@@ -4,7 +4,8 @@ export default {
   theme: {
     fontFamily: {
       sans: ['"Poppins"', "sans-serif"],
-      text: ['"Open Sans"', "sans-serif"]
+      text: ['"Open Sans"', "sans-serif"],
+      montserrat: ['"Montserrat"', "sans-serif"]
     },
     extend: {}
   },
