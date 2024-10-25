@@ -33,28 +33,28 @@ const Portfolio = () => {
 
           <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
             <img
-              className="w-full h-auto scale-[0.9] rotate-[-5deg] translate-x-[20px] translate-y-[45px]"
+              className="w-full h-auto scale-[1.1] rotate-[-5deg] translate-x-[40px] translate-y-[170px]"
               src={portfolioMainImg1}
               alt=""
             />
           </div>
           <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
             <img
-              className="w-full h-auto scale-[0.9] rotate-[-5deg] translate-x-[65px] translate-y-[0px]"
+              className="w-full h-auto scale-[1.1] rotate-[-5deg] translate-x-[95px] translate-y-[220px]"
               src={portfolioMainImg2}
               alt=""
             />
           </div>
           <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
             <img
-              className="w-full h-auto scale-[0.9] rotate-[-5deg] translate-x-[35px] translate-y-[45px]"
+              className="w-full h-auto scale-[1.1] rotate-[-5deg] translate-x-[55px] translate-y-[180px]"
               src={portfolioMainImg3}
               alt=""
             />
           </div>
           <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
             <img
-              className="w-full h-auto scale-[0.9] rotate-[-5deg] translate-x-[25px] translate-y-[45px]"
+              className="w-full h-auto scale-[1.1] rotate-[-5deg] translate-x-[45px] translate-y-[170px]"
               src={portfolioMainImg4}
               alt=""
             />
