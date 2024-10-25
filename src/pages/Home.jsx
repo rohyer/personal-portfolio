@@ -1,13 +1,15 @@
 import Banner from "../sections/Banner";
-import Contact from "../sections/Contact";
+import About from "../sections/About";
 import Portfolio from "../sections/Portfolio";
+import Career from "../sections/Career";
 
 const Home = () => {
   return (
     <>
       <Banner />
-      <Contact />
+      <About />
       <Portfolio />
+      <Career />
     </>
   );
 };
