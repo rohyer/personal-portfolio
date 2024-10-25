@@ -1,9 +1,10 @@
 import { FaArrowRight, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Contact = () => {
+const About = () => {
   return (
     <section className="bg-[#242736]">
+      <div id="sobre-mim"></div>
       <div className="flex flex-wrap justify-between gap-8 lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32">
         <div className="w-full lg:w-2/5">
           <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-4">
@@ -22,7 +23,7 @@ const Contact = () => {
 
           <a
             className="flex items-center font-montserrat font-semibold text-lg text-yellow-500 hover:opacity-[0.8] transition-all"
-            href="/portfolio"
+            href="https://api.whatsapp.com/send?phone=5584981056717&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20Guilherme."
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -68,4 +69,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default About;
