@@ -16,7 +16,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`${headerPosition} fixed w-full bg-[#333646] z-10`}>
+    <header className={`${headerPosition} fixed w-full bg-[#333646] z-20`}>
       <div className="flex items-center justify-between lg:container lg:mx-auto xl:px-64 lg:px-32 px-8 lg:h-24 h-16">
         <Link to="/">
           <FaCode className="text-4xl text-yellow-500" />
