@@ -1,4 +1,4 @@
-import { FaBolt, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaBolt, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { RiComputerFill } from "react-icons/ri";
 
@@ -56,6 +56,14 @@ const Banner = () => {
               rel="noopener noreferrer"
             >
               <MdEmail className="text-white" /> E-mail
+            </a>
+            <a
+              className="flex items-center gap-2 font-montserrat text-white px-4 py-2 bg-[#eab3080d] hover:bg-[#eab30826] transition-all rounded"
+              href="https://api.whatsapp.com/send?phone=5584981056717&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20Guilherme."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp className="text-white" /> Whatsapp
             </a>
           </div>
         </div>
