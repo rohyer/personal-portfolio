@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import portfolioImg from "../assets/img/portfolio-img.png";
+import portfolioImg2 from "../assets/img/portfolio-img-2.png";
+import portfolioImg3 from "../assets/img/portfolio-img-3.png";
+import portfolioImg4 from "../assets/img/portfolio-img-4.png";
 
 const Portfolio = () => {
   return (
@@ -32,13 +35,13 @@ const Portfolio = () => {
             <img className="w-full h-auto" src={portfolioImg} alt="" />
           </div>
           <div className="w-full mb-20">
-            <img className="w-full h-auto" src={portfolioImg} alt="" />
+            <img className="w-full h-auto" src={portfolioImg2} alt="" />
           </div>
           <div className="w-full mb-20">
-            <img className="w-full h-auto" src={portfolioImg} alt="" />
+            <img className="w-full h-auto" src={portfolioImg3} alt="" />
           </div>
           <div className="w-full">
-            <img className="w-full h-auto" src={portfolioImg} alt="" />
+            <img className="w-full h-auto" src={portfolioImg4} alt="" />
           </div>
         </div>
       </div>
