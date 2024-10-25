@@ -8,19 +8,22 @@ import portfolioMainImg4 from "../assets/img/portfolio-main-img-4.png";
 const Portfolio = () => {
   return (
     <section className="bg-[#333646]">
-      <div className="flex flex-col lg:container lg:mx-auto xl:px-64 lg:px-32 px-8 py-32">
+      <div className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32">
         <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-2">
           - Portfólio
         </h2>
 
-        <div className="columns-2 gap-x-20">
+        <div className="columns-1 md:columns-2 gap-x-20">
           <div className="w-full mb-24">
             <p className="font-sans text-white text-2xl mb-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+              Confira abaixo alguns dos projetos que participei e foram
+              entregues.
             </p>
 
             <p className="font-text text-[#70717c] font-semibold mb-16">
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+              Muitos deles foram desenvolvidos em equipe com designers e
+              gerentes de projetos, onde eu fui o responsável por toda a parte
+              de desenvolvimento.
             </p>
 
             <Link
@@ -31,30 +34,66 @@ const Portfolio = () => {
             </Link>
           </div>
 
-          <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+          <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
+              <p className="font-montserrat text-xl font-semibold text-white">
+                Barbosa Bezerra Lima Advocacia.
+              </p>
+              <p className="font-montserrat text-md font-semibold text-white mb-4">
+                Responsável pelo desenvolvimento.
+              </p>
+              <p className="font-montserrat text-sm text-white">Descrição: </p>
+            </div>
             <img
-              className="w-full h-auto scale-[1.1] rotate-[-5deg] translate-x-[40px] translate-y-[170px]"
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[40px] md:translate-y-[170px]"
               src={portfolioMainImg1}
               alt=""
             />
           </div>
-          <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+          <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
+              <p className="font-montserrat text-xl font-semibold text-white">
+                Novo Notícias.
+              </p>
+              <p className="font-montserrat text-md font-semibold text-white mb-4">
+                Responsável pelo desenvolvimento.
+              </p>
+              <p className="font-montserrat text-sm text-white">Descrição: </p>
+            </div>
             <img
-              className="w-full h-auto scale-[1.1] rotate-[-5deg] translate-x-[95px] translate-y-[220px]"
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[95px] md:translate-y-[220px]"
               src={portfolioMainImg2}
               alt=""
             />
           </div>
-          <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+          <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
+              <p className="font-montserrat text-xl font-semibold text-white">
+                CAURN.
+              </p>
+              <p className="font-montserrat text-md font-semibold text-white mb-4">
+                Responsável pelo desenvolvimento.
+              </p>
+              <p className="font-montserrat text-sm text-white">Descrição: </p>
+            </div>
             <img
-              className="w-full h-auto scale-[1.1] rotate-[-5deg] translate-x-[55px] translate-y-[180px]"
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[55px] md:translate-y-[180px]"
               src={portfolioMainImg3}
               alt=""
             />
           </div>
-          <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+          <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
+              <p className="font-montserrat text-xl font-semibold text-white">
+                Hapvendas.
+              </p>
+              <p className="font-montserrat text-md font-semibold text-white mb-4">
+                Responsável pelo desenvolvimento.
+              </p>
+              <p className="font-montserrat text-sm text-white">Descrição: </p>
+            </div>
             <img
-              className="w-full h-auto scale-[1.1] rotate-[-5deg] translate-x-[45px] translate-y-[170px]"
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[45px] md:translate-y-[170px]"
               src={portfolioMainImg4}
               alt=""
             />
