@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import portfolioImg from "../assets/img/portfolio-img.png";
-import portfolioImg2 from "../assets/img/portfolio-img-2.png";
-import portfolioImg3 from "../assets/img/portfolio-img-3.png";
-import portfolioImg4 from "../assets/img/portfolio-img-4.png";
+import portfolioMainImg1 from "../assets/img/portfolio-main-img-1.png";
+import portfolioMainImg2 from "../assets/img/portfolio-main-img-2.png";
+import portfolioMainImg3 from "../assets/img/portfolio-main-img-3.png";
+import portfolioMainImg4 from "../assets/img/portfolio-main-img-4.png";
 
 const Portfolio = () => {
   return (
@@ -31,17 +31,33 @@ const Portfolio = () => {
             </Link>
           </div>
 
-          <div className="w-full mb-20">
-            <img className="w-full h-auto" src={portfolioImg} alt="" />
+          <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <img
+              className="w-full h-auto scale-[0.9] rotate-[-5deg] translate-x-[20px] translate-y-[45px]"
+              src={portfolioMainImg1}
+              alt=""
+            />
           </div>
-          <div className="w-full mb-20">
-            <img className="w-full h-auto" src={portfolioImg2} alt="" />
+          <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <img
+              className="w-full h-auto scale-[0.9] rotate-[-5deg] translate-x-[65px] translate-y-[0px]"
+              src={portfolioMainImg2}
+              alt=""
+            />
           </div>
-          <div className="w-full mb-20">
-            <img className="w-full h-auto" src={portfolioImg3} alt="" />
+          <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <img
+              className="w-full h-auto scale-[0.9] rotate-[-5deg] translate-x-[35px] translate-y-[45px]"
+              src={portfolioMainImg3}
+              alt=""
+            />
           </div>
-          <div className="w-full">
-            <img className="w-full h-auto" src={portfolioImg4} alt="" />
+          <div className="w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <img
+              className="w-full h-auto scale-[0.9] rotate-[-5deg] translate-x-[25px] translate-y-[45px]"
+              src={portfolioMainImg4}
+              alt=""
+            />
           </div>
         </div>
       </div>
