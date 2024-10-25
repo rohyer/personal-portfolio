@@ -26,6 +26,15 @@ const Contact = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
             officiis! Magni beatae dicta excepturi accusamus earum, adipisci.
           </p>
+
+          <div className="flex items-end gap-4 mt-4">
+            <span className="font-text font-bold text-6xl leading-[46px] text-yellow-500">
+              6
+            </span>
+            <span className="font-text text-[16px] tracking-wide leading-4 text-white w-28">
+              anos de experiência
+            </span>
+          </div>
         </div>
       </div>
     </section>
