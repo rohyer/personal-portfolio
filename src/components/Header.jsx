@@ -25,16 +25,16 @@ const Header = () => {
         <nav>
           <ul className="flex gap-6">
             <li className="font-sans text-xl text-white">
-              <Link to="/#sobre-mim">Sobre mim</Link>
+              <a href="#sobre-mim">Sobre mim</a>
             </li>
             <li className="font-sans text-xl text-white">
-              <Link to="/portfolio">Portfólio</Link>
+              <a href="#portfolio">Portfólio</a>
             </li>
             <li className="font-sans text-xl text-white">
-              <Link to="/carreira">Carreira</Link>
+              <a href="#carreira">Carreira</a>
             </li>
             <li className="font-sans text-xl text-white">
-              <Link to="/contato">Contato</Link>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>
