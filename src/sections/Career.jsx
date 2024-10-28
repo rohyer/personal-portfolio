@@ -2,7 +2,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Career = () => {
   return (
-    <section className="bg-[#242736]">
+    <section className="relative bg-[#242736]">
+      <div id="carreira" className="absolute top-[-6rem]"></div>
       <div className="flex flex-col gap-8 lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32">
         <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-4">
           - Carreira

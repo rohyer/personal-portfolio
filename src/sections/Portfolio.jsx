@@ -7,7 +7,8 @@ import portfolioMainImg4 from "../assets/img/portfolio-main-img-4.png";
 
 const Portfolio = () => {
   return (
-    <section className="bg-[#333646]">
+    <section className="relative bg-[#333646]">
+      <div id="portfolio" className="absolute top-[-6rem]"></div>
       <div className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32">
         <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-2">
           - Portfólio
