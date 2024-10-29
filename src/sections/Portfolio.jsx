@@ -5,11 +5,14 @@ import portfolioMainImg2 from "../assets/img/portfolio-main-img-2.png";
 import portfolioMainImg3 from "../assets/img/portfolio-main-img-3.png";
 import portfolioMainImg4 from "../assets/img/portfolio-main-img-4.png";
 
-const Portfolio = () => {
+const Portfolio = ({ refAnchor2 }) => {
   return (
     <section className="relative bg-[#333646]">
       <div id="portfolio" className="absolute top-[-6rem]"></div>
-      <div className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32">
+      <div
+        ref={refAnchor2}
+        className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32"
+      >
         <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-2">
           - Portfólio
         </h2>
