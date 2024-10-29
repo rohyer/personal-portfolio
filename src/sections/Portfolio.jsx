@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import portfolioMainImg1 from "../assets/img/portfolio-main-img-1.png";
-import portfolioMainImg2 from "../assets/img/portfolio-main-img-2.png";
-import portfolioMainImg3 from "../assets/img/portfolio-main-img-3.png";
-import portfolioMainImg4 from "../assets/img/portfolio-main-img-4.png";
+import portfolioMainImg2 from "../assets/img/high-quality/portfolio-main-img-2.png";
+import portfolioMainImg1 from "../assets/img/high-quality/portfolio-main-img-1.png";
+import portfolioMainImg3 from "../assets/img/high-quality/portfolio-main-img-3.png";
+import portfolioMainImg4 from "../assets/img/high-quality/portfolio-main-img-4.png";
+import portfolioMainImg5 from "../assets/img/high-quality/portfolio-main-img-5.png";
+import portfolioMainImg9 from "../assets/img/high-quality/portfolio-main-img-9.png";
 
 const Portfolio = ({ refAnchor2 }) => {
   return (
@@ -98,6 +100,38 @@ const Portfolio = ({ refAnchor2 }) => {
             <img
               className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[45px] md:translate-y-[170px]"
               src={portfolioMainImg4}
+              alt=""
+            />
+          </div>
+          <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
+              <p className="font-montserrat text-xl font-semibold text-white">
+                Sinmed RN.
+              </p>
+              <p className="font-montserrat text-md font-semibold text-white mb-4">
+                Responsável pelo desenvolvimento.
+              </p>
+              <p className="font-montserrat text-sm text-white">Descrição: </p>
+            </div>
+            <img
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[135px] md:translate-y-[275px]"
+              src={portfolioMainImg5}
+              alt=""
+            />
+          </div>
+          <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
+              <p className="font-montserrat text-xl font-semibold text-white">
+                Gastrocentro.
+              </p>
+              <p className="font-montserrat text-md font-semibold text-white mb-4">
+                Responsável pelo desenvolvimento.
+              </p>
+              <p className="font-montserrat text-sm text-white">Descrição: </p>
+            </div>
+            <img
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[75px] md:translate-y-[215px]"
+              src={portfolioMainImg9}
               alt=""
             />
           </div>
