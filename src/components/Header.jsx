@@ -14,11 +14,15 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
   });
 
   const toggleMobileNav = () => {
-    setNav(!nav);
-    if (!nav) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
+    console.log(window.innerWidth);
+
+    if (window.innerWidth <= 767) {
+      setNav(!nav);
+      if (!nav) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "auto";
+      }
     }
   };
 
@@ -126,6 +130,7 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
                   linkEffect.link1 ? "after:w-full" : ""
                 }`}
                 href="#sobre-mim"
+                onClick={toggleMobileNav}
               >
                 Sobre mim
               </a>
@@ -136,6 +141,7 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
                   linkEffect.link2 ? "after:w-full" : ""
                 }`}
                 href="#portfolio"
+                onClick={toggleMobileNav}
               >
                 Portfólio
               </a>
@@ -146,6 +152,7 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
                   linkEffect.link3 ? "after:w-full" : ""
                 }`}
                 href="#carreira"
+                onClick={toggleMobileNav}
               >
                 Carreira
               </a>
@@ -156,6 +163,7 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
                   linkEffect.link4 ? "after:w-full" : ""
                 }`}
                 href="#contato"
+                onClick={toggleMobileNav}
               >
                 Contato
               </a>
