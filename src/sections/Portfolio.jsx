@@ -17,8 +17,7 @@ const Portfolio = () => {
         <div className="columns-1 md:columns-2 gap-x-20">
           <div className="w-full mb-24">
             <p className="font-sans text-white text-2xl mb-8">
-              Confira abaixo alguns dos projetos que participei e foram
-              entregues.
+              Confira abaixo alguns dos projetos que participei.
             </p>
 
             <p className="font-text text-[#70717c] font-semibold mb-16">
