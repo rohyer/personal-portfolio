@@ -115,8 +115,8 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
         </Link>
 
         <nav
-          className={` fixed top-0 left-0 w-full h-full bg-[#000000bb] backdrop-blur-sm md:relative md:w-auto md:h-auto md:flex md:bg-transparent ${
-            !nav && "hidden"
+          className={`fixed top-0 left-0 w-full h-full bg-[#000000bb] backdrop-blur-md duration-200 md:relative md:w-auto md:h-auto md:flex md:bg-transparent md:visible md:opacity-100  ${
+            !nav && "opacity-0 invisible"
           }`}
         >
           <ul className="flex flex-col h-full justify-center text-center md:flex-row md:h-auto gap-6">
