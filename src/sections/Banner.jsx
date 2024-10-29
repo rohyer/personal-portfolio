@@ -5,12 +5,12 @@ import { RiComputerFill } from "react-icons/ri";
 const Banner = () => {
   return (
     <section className="bg-[#333646]">
-      <div className="flex justify-between gap-8 lg:container lg:mx-auto xl:px-64 lg:px-32 px-8 py-32">
+      <div className="flex justify-between gap-8 lg:container lg:mx-auto xl:px-64 lg:px-32 px-8 py-32 animeLeft">
         <div>
           <p className="font-montserrat font-semibold text-2xl text-yellow-500">
             Prazer, me chamo
           </p>
-          <h1 className="relative font-montserrat font-semibold text-7xl text-white mb-16 before:block before:absolute before:h-2 before:w-20 before:bg-yellow-500 before:-bottom-4 before:left-0">
+          <h1 className="relative font-montserrat font-semibold text-7xl text-white mb-16 before:block before:absolute before:h-2 before:w-20 before:bg-yellow-500 before:-bottom-4 before:left-0 before:rounded-sm">
             Guilherme Rodrigues
           </h1>
 
