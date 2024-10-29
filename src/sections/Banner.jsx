@@ -10,7 +10,7 @@ const Banner = () => {
           <p className="font-montserrat font-semibold text-2xl text-yellow-500">
             Prazer, me chamo
           </p>
-          <h1 className="relative font-montserrat font-semibold text-7xl text-white mb-16 before:block before:absolute before:h-2 before:w-20 before:bg-yellow-500 before:-bottom-4 before:left-0 before:rounded-sm">
+          <h1 className="relative font-montserrat font-semibold text-3xl sm:text-5xl lg:text-7xl text-white mb-16 before:block before:absolute before:h-2 before:w-20 before:bg-yellow-500 before:-bottom-4 before:left-0 before:rounded-sm">
             Guilherme Rodrigues
           </h1>
 
@@ -32,7 +32,7 @@ const Banner = () => {
             </span>
           </p>
 
-          <div className="flex gap-4 pt-28">
+          <div className="flex flex-wrap gap-4 pt-28">
             <a
               className="flex items-center gap-2 font-montserrat text-white px-4 py-2 bg-[#eab3080d] hover:bg-[#eab30826] transition-all rounded"
               href="https://www.linkedin.com/in/guilhermerdeoliveira/"
