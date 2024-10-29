@@ -55,10 +55,11 @@ const Portfolio = ({ refAnchor2 }) => {
               alt=""
             />
           </div>
+
           <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
             <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
               <p className="font-montserrat text-xl font-semibold text-white">
-                Novo Notícias.
+                Sinmed RN.
               </p>
               <p className="font-montserrat text-md font-semibold text-white mb-4">
                 Responsável pelo desenvolvimento.
@@ -66,27 +67,12 @@ const Portfolio = ({ refAnchor2 }) => {
               <p className="font-montserrat text-sm text-white">Descrição: </p>
             </div>
             <img
-              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[95px] md:translate-y-[220px]"
-              src={portfolioMainImg2}
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[135px] md:translate-y-[275px]"
+              src={portfolioMainImg5}
               alt=""
             />
           </div>
-          <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
-            <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
-              <p className="font-montserrat text-xl font-semibold text-white">
-                CAURN.
-              </p>
-              <p className="font-montserrat text-md font-semibold text-white mb-4">
-                Responsável pelo desenvolvimento.
-              </p>
-              <p className="font-montserrat text-sm text-white">Descrição: </p>
-            </div>
-            <img
-              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[55px] md:translate-y-[180px]"
-              src={portfolioMainImg3}
-              alt=""
-            />
-          </div>
+
           <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
             <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
               <p className="font-montserrat text-xl font-semibold text-white">
@@ -106,7 +92,7 @@ const Portfolio = ({ refAnchor2 }) => {
           <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
             <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
               <p className="font-montserrat text-xl font-semibold text-white">
-                Sinmed RN.
+                CAURN.
               </p>
               <p className="font-montserrat text-md font-semibold text-white mb-4">
                 Responsável pelo desenvolvimento.
@@ -114,11 +100,29 @@ const Portfolio = ({ refAnchor2 }) => {
               <p className="font-montserrat text-sm text-white">Descrição: </p>
             </div>
             <img
-              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[135px] md:translate-y-[275px]"
-              src={portfolioMainImg5}
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[55px] md:translate-y-[180px]"
+              src={portfolioMainImg3}
               alt=""
             />
           </div>
+
+          <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
+            <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
+              <p className="font-montserrat text-xl font-semibold text-white">
+                Novo Notícias.
+              </p>
+              <p className="font-montserrat text-md font-semibold text-white mb-4">
+                Responsável pelo desenvolvimento.
+              </p>
+              <p className="font-montserrat text-sm text-white">Descrição: </p>
+            </div>
+            <img
+              className="w-full h-auto md:scale-[1.1] md:rotate-[-5deg] md:translate-x-[95px] md:translate-y-[220px]"
+              src={portfolioMainImg2}
+              alt=""
+            />
+          </div>
+
           <div className="relative group w-full max-h-[500px] overflow-hidden bg-[#242734] mb-20">
             <div className="flex flex-col absolute left-0 top-0 w-full h-full z-10 px-8 py-8 opacity-0 transition-all group-hover:opacity-100 bg-[#000000b3]">
               <p className="font-montserrat text-xl font-semibold text-white">
