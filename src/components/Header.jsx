@@ -1,8 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { FaCode } from "react-icons/fa";
+import { MdClose, MdMenu } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
+  const [nav, setNav] = useState(false);
   const [headerPosition, setHeaderPosition] = useState("");
   const [linkEffect, setLinkEffect] = useState({
     link1: false,
@@ -10,6 +12,15 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
     link3: false,
     link4: false
   });
+
+  const toggleMobileNav = () => {
+    setNav(!nav);
+    if (!nav) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  };
 
   const addBoxShadow = () => {
     if (window.scrollY >= 100) {
@@ -103,8 +114,12 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
           <FaCode className="text-4xl text-yellow-500" />
         </Link>
 
-        <nav>
-          <ul className="flex gap-6">
+        <nav
+          className={` fixed top-0 left-0 w-full h-full bg-[#000000bb] backdrop-blur-sm md:relative md:w-auto md:h-auto md:flex md:bg-transparent ${
+            !nav && "hidden"
+          }`}
+        >
+          <ul className="flex flex-col h-full justify-center text-center md:flex-row md:h-auto gap-6">
             <li className="font-sans text-xl text-white">
               <a
                 className={`relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 after:rounded-sm hover:after:w-full ${
@@ -147,6 +162,14 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
             </li>
           </ul>
         </nav>
+
+        <div onClick={toggleMobileNav} className="flex z-20 md:hidden">
+          {nav ? (
+            <MdClose className="text-4xl text-white" />
+          ) : (
+            <MdMenu className="text-4xl text-white" />
+          )}
+        </div>
       </div>
     </header>
   );
