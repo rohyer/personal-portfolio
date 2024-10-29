@@ -1,9 +1,9 @@
 import { FaArrowRight, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const About = () => {
+const About = ({ refAnchor1 }) => {
   return (
-    <section className="relative bg-[#242736]">
+    <section ref={refAnchor1} className="relative bg-[#242736]">
       <div id="sobre-mim" className="absolute top-[-6rem]"></div>
       <div className="flex flex-wrap justify-between gap-8 lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32">
         <div className="w-full lg:w-2/5">
