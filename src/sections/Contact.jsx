@@ -7,28 +7,22 @@ const Contact = ({ refAnchor4 }) => {
       <div id="contato" className="absolute top-[-6rem]"></div>
       <div
         ref={refAnchor4}
-        className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32"
+        className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 pt-32 pb-32"
       >
         <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-8">
           - Contato
         </h2>
 
         <div className="flex justify-between">
-          <div className="w-1/2">
+          <div className="w-full sm:w-2/3">
+            <p className="font-sans text-white text-2xl mb-0">
+              Fale comigo através dos links abaixo!
+            </p>
             <p className="font-sans text-white text-2xl mb-8">
-              Fale comigo através dos links abaixo ou me mande um e-mail através
-              do formulário.
+              Aguardo sua mensagem!
             </p>
 
             <div className="flex gap-4">
-              <a
-                className="flex items-center gap-2 font-montserrat text-white px-4 py-2 bg-[#eab3080d] hover:bg-[#eab30826] transition-all rounded"
-                href="mailto:guilhermerl.dev@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MdEmail className="text-white" /> E-mail
-              </a>
               <a
                 className="flex items-center gap-2 font-montserrat text-white px-4 py-2 bg-[#eab3080d] hover:bg-[#eab30826] transition-all rounded"
                 href="https://api.whatsapp.com/send?phone=5584981056717&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20Guilherme."
@@ -37,9 +31,18 @@ const Contact = ({ refAnchor4 }) => {
               >
                 <FaWhatsapp className="text-white" /> Whatsapp
               </a>
+              <a
+                className="flex items-center gap-2 font-montserrat text-white px-4 py-2 bg-[#eab3080d] hover:bg-[#eab30826] transition-all rounded"
+                href="mailto:guilhermerl.dev@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MdEmail className="text-white" /> E-mail
+              </a>
             </div>
           </div>
-          <div className="w-2/5">
+
+          {/* <div className="w-2/5">
             <form action="" className="flex flex-col">
               <label htmlFor="name" className="font-sans text-white text-xl">
                 Nome
@@ -79,7 +82,7 @@ const Contact = ({ refAnchor4 }) => {
                 className="w-[150px] py-2 text-white bg-[#eab3080d] hover:bg-[#eab30826] transition-all rounded cursor-pointer"
               />
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
