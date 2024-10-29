@@ -5,14 +5,20 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [headerPosition, setHeaderPosition] = useState("");
 
+  const addBoxShadow = () => {
+    if (window.scrollY >= 100) {
+      setHeaderPosition("shadow-lg");
+    } else {
+      setHeaderPosition("");
+    }
+  };
+
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY >= 100) {
-        setHeaderPosition("shadow-lg");
-      } else {
-        setHeaderPosition("");
-      }
-    });
+    window.addEventListener("scroll", addBoxShadow);
+
+    return () => {
+      window.removeEventListener("scroll", addBoxShadow);
+    };
   }, []);
 
   return (
@@ -25,16 +31,36 @@ const Header = () => {
         <nav>
           <ul className="flex gap-6">
             <li className="font-sans text-xl text-white">
-              <a href="#sobre-mim">Sobre mim</a>
+              <a
+                className="relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 hover:after:w-full"
+                href="#sobre-mim"
+              >
+                Sobre mim
+              </a>
             </li>
             <li className="font-sans text-xl text-white">
-              <a href="#portfolio">Portfólio</a>
+              <a
+                className="relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 hover:after:w-full"
+                href="#portfolio"
+              >
+                Portfólio
+              </a>
             </li>
             <li className="font-sans text-xl text-white">
-              <a href="#carreira">Carreira</a>
+              <a
+                className="relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 hover:after:w-full"
+                href="#carreira"
+              >
+                Carreira
+              </a>
             </li>
             <li className="font-sans text-xl text-white">
-              <a href="#contato">Contato</a>
+              <a
+                className="relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 hover:after:w-full"
+                href="#contato"
+              >
+                Contato
+              </a>
             </li>
           </ul>
         </nav>
