@@ -5,14 +5,14 @@ import Career from "../sections/Career";
 import Contact from "../sections/Contact";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Home = ({ refAnchor1, refAnchor2, refAnchor3, refAnchor4 }) => {
   return (
     <>
       <Banner />
-      <About />
-      <Portfolio />
-      <Career />
-      <Contact />
+      <About refAnchor1={refAnchor1} />
+      <Portfolio refAnchor2={refAnchor2} />
+      <Career refAnchor3={refAnchor3} />
+      <Contact refAnchor4={refAnchor4} />
       <Footer />
     </>
   );
