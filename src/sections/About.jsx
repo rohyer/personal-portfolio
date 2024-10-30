@@ -16,9 +16,9 @@ const About = ({ refAnchor1 }) => {
           </p>
 
           <p className="font-text text-[#70717c] font-semibold mb-14">
-            Pude desenvolver uma grande base de conhecimento durante minha
-            formação. Passei desde algoritmos e estrutura de dados até
-            desenvolvimento web, onde me especializei.
+            Durante minha formação adquiri uma grande base de conhecimento.
+            Estudei desde algoritmos e estrutura de dados até desenvolvimento
+            web, onde me especializei.
           </p>
 
           <a
@@ -34,12 +34,12 @@ const About = ({ refAnchor1 }) => {
 
         <div className="w-full lg:w-[48%]">
           <p className="font-sans text-white text-2xl mt-2 mb-8">
-            Já passei por duas empresas durante minha carreira atuando como
-            desenvolvedor web em diversos projetos.
+            Já atuei em duas empresas durante minha carreira como desenvolvedor
+            web em diversos projetos.
           </p>
 
           <p className="font-text text-[#70717c] font-semibold mb-16">
-            Hoje na Interativa Digital contribuo diretamente no desenvolvimento
+            Hoje no meu trabalho atual contribuo diretamente no desenvolvimento
             de inúmeros sites entregando soluções eficientes para nossos
             queridos clientes.
           </p>

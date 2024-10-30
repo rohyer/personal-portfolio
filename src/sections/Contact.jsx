@@ -16,10 +16,10 @@ const Contact = ({ refAnchor4 }) => {
         <div className="flex justify-between">
           <div className="w-full sm:w-2/3">
             <p className="font-sans text-white text-2xl mb-0">
-              Fale comigo através dos links abaixo!
+              Tem algum projeto?
             </p>
             <p className="font-sans text-white text-2xl mb-8">
-              Aguardo sua mensagem!
+              Fale comigo através dos links abaixo!
             </p>
 
             <div className="flex gap-4">
