@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { FaCode } from "react-icons/fa";
 import { MdClose, MdMenu } from "react-icons/md";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
   const [nav, setNav] = useState(false);
@@ -14,8 +15,6 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
   });
 
   const toggleMobileNav = () => {
-    console.log(window.innerWidth);
-
     if (window.innerWidth <= 767) {
       setNav(!nav);
       if (!nav) {
@@ -41,6 +40,7 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
     const section4 = refLink4.current;
 
     if (
+      section1 &&
       section1.getBoundingClientRect().top <= 96 &&
       section1.getBoundingClientRect().top >= -section1.offsetHeight + 97
     ) {
@@ -56,6 +56,7 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
     }
 
     if (
+      section2 &&
       section2.getBoundingClientRect().top <= 96 &&
       section2.getBoundingClientRect().top >= -section2.offsetHeight + 97
     ) {
@@ -71,6 +72,7 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
     }
 
     if (
+      section3 &&
       section3.getBoundingClientRect().top <= 96 &&
       section3.getBoundingClientRect().top >= -section3.offsetHeight + 97
     ) {
@@ -86,6 +88,7 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
     }
 
     if (
+      section4 &&
       section4.getBoundingClientRect().top <= 96 &&
       section4.getBoundingClientRect().top >= -section4.offsetHeight + 97
     ) {
@@ -125,48 +128,48 @@ const Header = ({ refLink1, refLink2, refLink3, refLink4 }) => {
         >
           <ul className="flex flex-col h-full justify-center text-center md:flex-row md:h-auto gap-6">
             <li className="font-sans text-xl text-white">
-              <a
+              <Link
                 className={`relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 after:rounded-sm hover:after:w-full ${
                   linkEffect.link1 ? "after:w-full" : ""
                 }`}
-                href="#sobre-mim"
+                to="/#sobre-mim"
                 onClick={toggleMobileNav}
               >
                 Sobre mim
-              </a>
+              </Link>
             </li>
             <li className="font-sans text-xl text-white">
-              <a
+              <Link
                 className={`relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 after:rounded-sm hover:after:w-full ${
                   linkEffect.link2 ? "after:w-full" : ""
                 }`}
-                href="#portfolio"
+                to="/#portfolio"
                 onClick={toggleMobileNav}
               >
                 Portfólio
-              </a>
+              </Link>
             </li>
             <li className="font-sans text-xl text-white">
-              <a
+              <Link
                 className={`relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 after:rounded-sm hover:after:w-full ${
                   linkEffect.link3 ? "after:w-full" : ""
                 }`}
-                href="#carreira"
+                to="/#carreira"
                 onClick={toggleMobileNav}
               >
                 Carreira
-              </a>
+              </Link>
             </li>
             <li className="font-sans text-xl text-white">
-              <a
+              <Link
                 className={`relative py-2 after:content[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:bg-yellow-500 after:w-0 after:h-1 after:duration-200 after:rounded-sm hover:after:w-full ${
                   linkEffect.link4 ? "after:w-full" : ""
                 }`}
-                href="#contato"
+                to="/#contato"
                 onClick={toggleMobileNav}
               >
                 Contato
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
