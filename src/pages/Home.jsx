@@ -9,16 +9,8 @@ import { useEffect, useState } from "react";
 const Home = ({ refAnchor1, refAnchor2, refAnchor3, refAnchor4 }) => {
   const [showBanner, setShowBanner] = useState(false);
 
-  const showSections = () => {
-    setShowBanner(true);
-  };
-
   useEffect(() => {
-    window.addEventListener("load", showSections);
-
-    return () => {
-      window.removeEventListener("load", showSections);
-    };
+    setShowBanner(true);
   }, []);
 
   return (
