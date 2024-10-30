@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import { useEffect, useRef } from "react";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   const refLink1 = useRef(null);
@@ -31,6 +32,7 @@ function App() {
             />
           }
         />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
   );
