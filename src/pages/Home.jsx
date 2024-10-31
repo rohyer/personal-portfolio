@@ -22,7 +22,6 @@ const Home = ({ refAnchor1, refAnchor2, refAnchor3, refAnchor4 }) => {
           <Portfolio refAnchor2={refAnchor2} />
           <Career refAnchor3={refAnchor3} />
           <Contact refAnchor4={refAnchor4} />
-          <Footer />
         </>
       )}
     </>
