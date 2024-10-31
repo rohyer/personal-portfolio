@@ -44,12 +44,28 @@ const Portfolio = ({ refAnchor2 }) => {
 
           <Project
             title="Barbosa Bezerra Lima Advocacia."
+            description="Escritório de advocacia presente em Natal - RN e São Paulo - SP. O site foca em apresentar o escritório dividindo-o em suas áreas de atuação, contendo um blog para cada área e seções de apresentação dos advogados proporcionando uma maior presença online para o escritório."
             img={portfolioMainImg1}
             page="home"
           />
-          <Project title="NOVO Notícias." img={portfolioMainImg2} page="home" />
-          <Project title="CAURN." img={portfolioMainImg3} page="home" />
-          <Project title="Sinmed RN." img={portfolioMainImg5} page="home" />
+          <Project
+            title="NOVO Notícias."
+            description="Portal de Notícias online de Natal e região. O site foca em apresentar as notícias separando-as por seus níveis de destaques e categorias. Também apresenta páginas para os blogueiros filtrando e apresentando suas próprias notícias."
+            img={portfolioMainImg2}
+            page="home"
+          />
+          <Project
+            title="CAURN."
+            description="Caixa Assistencial Universitária do Rio Grande do Norte. O site tem o principal objetivo de apresentar toda a rede de atendimento médico separando-as por rede CAURN, médicos, clínicas, especialidades e locais de atendimentos, listando os médicos e clínicas disponíveis. Também apresenta a instituição de forma geral, seus planos e um blog contendo suas notícias."
+            img={portfolioMainImg3}
+            page="home"
+          />
+          <Project
+            title="Sinmed RN."
+            description="Sindicato dos Médicos do Rio Grande do Norte. o Site apresenta informações sobre o sindicato, seções de notícias separando-as por suas categorias, como também seus serviços disponíveis e diversos documentos para download."
+            img={portfolioMainImg5}
+            page="home"
+          />
         </div>
       </div>
     </section>
