@@ -5,7 +5,7 @@ const About = ({ refAnchor1 }) => {
   return (
     <section ref={refAnchor1} className="relative bg-[#242736]">
       <div id="sobre-mim" className="absolute top-[-6rem]"></div>
-      <div className="flex flex-wrap justify-between gap-8 lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32">
+      <div className="flex flex-wrap justify-between gap-8 lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-16 sm:py-32">
         <div className="w-full lg:w-2/5">
           <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-4">
             - Sobre mim
@@ -44,7 +44,7 @@ const About = ({ refAnchor1 }) => {
             queridos clientes.
           </p>
 
-          <div className="flex">
+          <div className="flex flex-wrap">
             <div className="flex items-end gap-4 mt-4">
               <span className="font-text font-bold text-4xl xl:text-5xl 2xl:text-6xl leading-[46px] text-yellow-500">
                 6

@@ -6,7 +6,7 @@ const Career = ({ refAnchor3 }) => {
       <div id="carreira" className="absolute top-[-6rem]"></div>
       <div
         ref={refAnchor3}
-        className="flex flex-col gap-8 lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32"
+        className="flex flex-col gap-8 lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-16 sm:py-32"
       >
         <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-4">
           - Carreira
@@ -26,43 +26,57 @@ const Career = ({ refAnchor3 }) => {
             <ul className="text-white">
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Desenvolvimento de sistemas: responsável pelo desenvolvimento
-                front-end usando Javascript, HTML, CSS, SASS e Gulp;
+                <span className="w-full">
+                  Desenvolvimento de sistemas: responsável pelo desenvolvimento
+                  front-end usando Javascript, HTML, CSS, SASS e Gulp;
+                </span>
               </li>
 
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Manutenção de sistemas: encarregado de corrigir sistemas
-                desenvolvidos em JavaScript, React, Angular e Vue.js;
+                <span className="w-full">
+                  Manutenção de sistemas: encarregado de corrigir sistemas
+                  desenvolvidos em JavaScript, React, Angular e Vue.js;
+                </span>
               </li>
 
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Desenvolvimento de sites: responsável pelo desenvolvimento
-                front-end usando JavaScript, HTML, CSS, SASS;
+                <span className="w-full">
+                  Desenvolvimento de sites: responsável pelo desenvolvimento
+                  front-end usando JavaScript, HTML, CSS, SASS;
+                </span>
               </li>
 
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Manutenção de sites: responsável por correções e ajustes usando
-                JavaScript, HTML, CSS, SASS;
+                <span className="w-full">
+                  Manutenção de sites: responsável por correções e ajustes
+                  usando JavaScript, HTML, CSS, SASS;
+                </span>
               </li>
 
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Implementação de melhorias de SEO: responsável por correções
-                focadas em melhoria no desempenho de busca do Google;
+                <span className="w-full">
+                  Implementação de melhorias de SEO: responsável por correções
+                  focadas em melhoria no desempenho de busca do Google;
+                </span>
               </li>
 
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Deploy de sites em ambiente de produção;
+                <span className="w-full">
+                  Deploy de sites em ambiente de produção;
+                </span>
               </li>
 
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Reuniões: participação em reuniões semanais e diárias utilizando
-                a metodologia ágil Kanban.
+                <span className="w-full">
+                  Reuniões: participação em reuniões semanais e diárias
+                  utilizando a metodologia ágil Kanban.
+                </span>
               </li>
             </ul>
           </div>
@@ -80,21 +94,27 @@ const Career = ({ refAnchor3 }) => {
             <ul className="text-white">
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Desenvolvimento de lojas virtuais: responsável pelo
-                desenvolvimento usando HTML, CSS, SASS e Javascript nas
-                plataformas e-commerce Tray, Xtech e Loja Integrada;
+                <span className="w-full">
+                  Desenvolvimento de lojas virtuais: responsável pelo
+                  desenvolvimento usando HTML, CSS, SASS e Javascript nas
+                  plataformas e-commerce Tray, Xtech e Loja Integrada;
+                </span>
               </li>
 
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Manutenção de e-commerces: Ajustes e melhorias de desempenho e
-                design de lojas virtuais;
+                <span className="w-full">
+                  Manutenção de e-commerces: Ajustes e melhorias de desempenho e
+                  design de lojas virtuais;
+                </span>
               </li>
 
               <li className="flex items-baseline">
                 <MdKeyboardArrowRight />
-                Desenvolvimento de sites: responsável pelo desenvolvimento
-                front-end usando JavaScript, HTML, CSS e SASS.
+                <span className="w-full">
+                  Desenvolvimento de sites: responsável pelo desenvolvimento
+                  front-end usando JavaScript, HTML, CSS e SASS.
+                </span>
               </li>
             </ul>
           </div>

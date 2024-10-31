@@ -16,7 +16,7 @@ const Portfolio = ({ refAnchor2 }) => {
       <div id="portfolio" className="absolute top-[-6rem]"></div>
       <div
         ref={refAnchor2}
-        className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32"
+        className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 pt-16 pb-8 sm:py-32"
       >
         <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-2">
           - Portfólio

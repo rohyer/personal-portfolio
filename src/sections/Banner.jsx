@@ -15,19 +15,18 @@ const Banner = () => {
           </h1>
 
           <p className="font-montserrat text-2xl text-white mb-8">
-            Desenvolvedor Web. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit.
+            Desenvolvedor Web desde 2018.
           </p>
 
-          <p className="flex items-center">
+          <p className="flex items-baseline">
             <FaBolt className="text-xl text-yellow-500 mr-2" />
-            <span className="font-text text-lg text-gray-300">
+            <span className="font-text text-lg text-gray-300 w-full">
               Especializado em desenvolvimento front-end ( JavaScript e React ).
             </span>
           </p>
           <p className="flex items-center">
             <RiComputerFill className="text-xl text-[#02866a] mr-2" />
-            <span className="font-text text-lg text-gray-300">
+            <span className="font-text text-lg text-gray-300 w-full">
               Desenvolvedor Web na Interativa Digital.
             </span>
           </p>

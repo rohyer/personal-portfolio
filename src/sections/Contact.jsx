@@ -7,7 +7,7 @@ const Contact = ({ refAnchor4 }) => {
       <div id="contato" className="absolute top-[-6rem]"></div>
       <div
         ref={refAnchor4}
-        className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 pt-32 pb-32"
+        className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-16 sm:py-32"
       >
         <h2 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-8">
           - Contato
