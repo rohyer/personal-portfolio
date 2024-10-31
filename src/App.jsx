@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import { useEffect, useRef } from "react";
 import Portfolio from "./pages/Portfolio";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const refLink1 = useRef(null);
@@ -13,6 +15,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Header
         refLink1={refLink1}
         refLink2={refLink2}
@@ -34,6 +37,8 @@ function App() {
         />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }
