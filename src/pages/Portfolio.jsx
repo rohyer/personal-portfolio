@@ -21,7 +21,7 @@ const Portfolio = () => {
   Fancybox.bind("[data-fancybox]", {});
 
   return (
-    <div className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32">
+    <div className="flex flex-col lg:container lg:mx-auto xl:px-32 2xl:px-64 lg:px-32 px-8 py-32 animeLeft">
       <h1 className="font-montserrat text-[#70717c] font-semibold tracking-wider mb-8">
         - Portfólio
       </h1>
